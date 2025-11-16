@@ -1,2 +1,36 @@
+/* Flex containers */
+.holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
-/* Your CSS Code here. */
+/* Enable wrapping for second example */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Common item styling */
+.item {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colors */
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
