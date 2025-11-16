@@ -2,13 +2,9 @@
 .holder {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;   /* ✔ REQUIRED BY CYPRESS */
     align-items: center;
     width: 100%;
-}
-
-/* Enable wrapping for second example */
-.wrap {
-    flex-wrap: wrap;
 }
 
 /* Common item styling */
